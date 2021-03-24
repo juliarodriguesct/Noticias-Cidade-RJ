@@ -1,0 +1,339 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif; 
+	color: #363636;
+	background: #fff url("../Imagens/fundo.png") repeat-x; 
+	text-align: justify; 
+}
+
+/* Topo */
+
+#container {
+	width: 750px;
+	margin: 0 auto; 
+}
+
+#topo {
+	height: 150px; 
+	background: url("../Imagens/detalhe-topo.png") no-repeat right top;
+	padding-top: 28px;
+
+}
+
+.logo {
+	width: 152px; 
+	height: 66px; 
+	background: url("../Imagens/logo.png") no-repeat;
+	text-indent: -10000px; 
+}
+
+/* Barras de Navegação */
+
+ul {
+	margin: 0; 
+	padding: 0; 
+	list-style: none; 
+}
+
+
+/* 
+
+#topo ul {
+	margin-top: 30px; 
+	background: #730000; 
+	float: left; 
+}
+
+#topo ul li {
+	float: left; 
+
+}
+
+*/
+
+/* OU */
+
+#topo li {
+	margin-top: 30px; 
+	background: #730000; 
+	float: left; 
+}
+
+/**/
+
+
+#topo ul li a {
+	font-size: 0.9em; 
+	display: block;
+	padding: 0.5em 1.5em; 
+	line-height: 2.1em; 
+	text-decoration: none; 
+	color: #fff; 
+	background: url("../Imagens/divisor.png") no-repeat left center;
+}
+
+#topo ul .primeiro a{
+	background: none; 
+}
+
+/* Links Menu */
+
+#topo ul a:hover {
+	color: #fff; 
+	background: #660000; 
+}
+
+body.home #navegaçao a#home, body.violencia #navegaçao a#violencia, body.saude #navegaçao a#saude, body.economia #navegaçao a#economia, body.politica #navegaçao a#politica, body.fotos #navegaçao a#fotos, body.denuncie #navegaçao a#denuncie {
+	color: #730000; 
+	background: #ffba00; 
+	cursor: text; 
+}
+
+/* Layout de Três Colunas */
+
+#conteudo { /* 750px */
+	background: #f5f5f5;
+	margin-top: 60px; 
+}
+
+#lateral {
+	width: 180px; 
+	float: left; 
+	margin: 0 0 20px -750px;
+
+}
+
+#primario {
+	float: left; 
+	margin: 0 0 20px 195px;
+}
+
+#tres-colunas #primario {
+	width: 270px; 
+
+}
+
+#duas-colunas #primario {
+	width: 555px; 
+}
+
+#uma-coluna #primario {
+	width: 750px; 
+	margin: 0 0 20px 0;
+}
+
+#secundario {
+	width: 270px; 
+	float: left; 
+	margin: 0 0 20px 15px;
+
+}
+
+/* Caixa */ 
+
+.caixa {
+	margin: 10px 0;
+	padding: 5px;
+	background: #f3f3f3 url("../Imagens/fundo-caixa.png");
+}
+
+
+h2 {
+	font-size: 1em; 
+	background: #9a0000; 
+	color: #fff; 
+	padding: 5px; 
+	text-align: center;
+}
+
+.destaque h3 {
+	font-size: 0.9em;
+	text-transform: uppercase;
+	padding: 1px 8px;
+	margin-bottom: 1px; 
+	background: #ffba00; 
+	color: #730000;
+	display: inline-block;
+}
+
+.abas p {
+	padding: 5px 20px; 
+
+}
+
+
+.abas .leia-mais {
+	padding: 10px 20px; 
+
+}
+.entrevista h3 {
+	font-size: 0.9em; 
+	text-transform: uppercase;
+	padding: 1px 8px;
+	margin-bottom: 1px; 
+	background: #730000; 
+	color: #f5f5f5;
+	display: inline-block;
+}
+
+.caixa-conteudo {
+	background: #fff; 
+	padding: 5px; 
+	margin-top: 5px; 
+}
+
+p {
+	padding: 5px;
+}
+
+a.leia-mais{
+	color: #9a0000; 
+	text-decoration: none;
+	display: inline-block; 
+	margin: 0 0 3px 152px;
+}
+
+a.leia-mais{
+	color: #9a0000; 
+	text-decoration: none;
+	display: inline-block; 
+	margin: 0 0 3px 0;
+}
+
+a:hover.leia-mais{
+	color: #ffba00; 
+}
+
+/* Menu Lateral */
+
+#lateral ul li a {
+	font-size: 0.9em;
+	padding: 3px;
+	display: block; 
+	line-height: 30px; 
+	color: #363636; 
+	text-decoration: none; 
+	border-bottom: 3px double #f3f3f3; 
+}
+
+#lateral ul a:hover {
+	background: url("../Imagens/marcador.png") no-repeat left center; 
+	padding-left: 22px; 
+	color: #9a0000; 
+
+}
+
+.clear {
+	clear: both; 
+}
+
+/* Últimas Notícias */
+
+.ultimas-noticias{
+	width: 545px; 
+}
+
+.ultimas-noticias ul li a img {
+	float: left;
+	margin: 0 10px 5px 3px; 
+	width: 20%;
+}
+
+.ultimas-noticias ul li h3 {
+	font-size: 0.8em;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 1px 3px;
+	color: #ffba00; 
+}
+
+.ultimas-noticias ul li p {
+	font-size: 0.8em;
+}
+
+.ultimas-noticias ul li a {
+	text-decoration: none;
+	color: #730000;
+	margin: 0;
+	padding: 0;
+}
+
+.ultimas-noticias ul li:hover {
+	background: #fff5da;
+	cursor: pointer;
+
+}
+
+.ultimas-noticias ul li {
+	padding: 5px 2px 20px 2px;
+	border-bottom: 3px double #f5f5f5;  
+
+}
+
+
+
+/* Newsletter */
+
+label {
+	display: block;
+	cursor: pointer;
+	font-size: 0.9em;
+	padding: 5px;
+
+}
+
+input {
+	padding: 5px;
+	margin: 5px 0 5px 0;
+	width: 150px;
+	font-size: 0.8em;	
+	background-color: #f5f5f5;
+	border: 1px solid;
+
+}
+
+input.submit {
+	width: 100px; 
+	color: #fff; 
+	background-color: #9a0000; 
+	border: 2px solid #660000;
+	margin-left: 30px;
+
+}
+
+input.submit:hover {
+	width: 100px; 
+	color: #ffba00; 
+	background-color: #9a0000; 
+	border: 2px solid #660000;
+	margin-left: 30px;
+
+
+}
+
+/* Imagens */ 
+
+img {
+	width: 98%;
+	border: 5px double #f5f5f5;
+}
+
+
+
+/* Rodapé */
+
+#container-rodape {
+	background: #9a0000;
+	padding: 20px; 
+}
+
+#rodape {
+	width: 750px; 
+	margin: 0 auto;
+	color: #fff; 
+}
+
